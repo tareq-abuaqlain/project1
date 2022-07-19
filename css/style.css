@@ -39,7 +39,7 @@ nav {
 .started .city {
     width: 350px;
     height: 350px;
-    border-radius: 100%;
+    border-radius: 50%;
     padding-top: 20px;
 }
 .descriptionOfStarted {
@@ -161,3 +161,58 @@ h1 {
 
 }
 /* Start About Section3 */
+/* Start About Section4 */
+.section4 {
+    height: 500px;
+    background-image: url("../img/road.jpg");
+}
+.white {
+    color: #fff;
+    opacity: 0.9;
+    text-align: center;
+}
+.newButton {
+    color: #fff;
+    border: 1px solid #fff;
+    opacity: 0.9;
+}
+/* End About Section4 */
+/* Start About Footer */
+.edit {
+    max-width: 500px;
+}
+
+.icons2 i {
+    border: 1px solid rgb(91,91,91);
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.footer {
+    display: flex;
+}
+.form {
+    margin: 26px 16px;
+}
+.form button {
+    padding: 15px 21px;
+    margin: 20px 0px;
+}
+
+.form input ,  textarea {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d5c5b2;
+    padding: 10px 10px;
+}
+.form label {
+    display: none;
+
+}
+.lastP {
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+/* End About Footer */
