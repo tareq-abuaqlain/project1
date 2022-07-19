@@ -1,0 +1,163 @@
+body {
+    font-family: system-ui;
+    color: rgb(91,91,91);
+    padding: 0;
+    margin: 0 auto;
+}
+/* Start About header */
+nav {
+    margin: 15px 15px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+  background-color: rgb(91,91,91);
+  border-radius: 100%;
+  margin: 5px 10px;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1066px;
+}
+
+.started {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+}
+
+.started .city {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+.descriptionOfStarted {
+    max-width: 350px;
+}
+.descriptionOfStarted p {
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 40px;
+
+}
+ .button {
+    text-decoration: none;
+    color: rgb(91,91,91);
+    border: 1px solid rgb(91,91,91);
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 60px;
+    opacity: 0.9;
+
+}
+
+
+/* End About header */
+/* Start About Section2 */
+.section2 {
+    background-color: #F7F7F7;
+    padding: 0;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.firstPinSec {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 0;
+    letter-spacing: 1px;
+
+}
+.secondePinSec {
+    margin: 0 auto 60px auto;
+    max-width: 406px;
+    font-size: 20px;
+    opacity: 0.9;
+    font-weight: 200;
+
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.icons i {
+    font-size: 28px;
+    border: 1px solid rgb(91,91,91);
+    border-radius: 100%;
+    padding: 40px;
+    margin: 0 23px;
+    background-color: #F7F7F7;
+}
+.hr {
+    margin: -53px 163px 59px 278px;
+    max-width: 900px;
+}
+.disciptionOfSection2{
+    margin: 150px auto 50px auto;
+    max-width: 800px;
+    text-align: center;
+    opacity: 0.8;
+}
+.button2 {
+    display: flex;
+    justify-content: center;
+    max-width: 87px;
+    margin: 0 auto;
+}
+.details {
+    padding-bottom: 100px;
+}
+
+/* End About Section2 */
+/* Start About Section3 */
+.after {
+    opacity: 0.6;
+    font-weight: 800;
+    color: rgb(91,91,91);
+}
+.definition {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.img img {
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+.definitionDetails{
+    padding: 0 40px;
+
+}
+
+.definitionDetails p {
+    line-height: 1.8;
+    opacity: 0.8;
+    padding-bottom: 20px;
+    /* padding: 0 50px; */
+
+}
+/* Start About Section3 */
